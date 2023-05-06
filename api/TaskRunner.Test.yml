@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.Test
+  commentId: N:TaskRunner.Test
+  id: TaskRunner.Test
+  children:
+  - TaskRunner.Test.MockSender`1
+  - TaskRunner.Test.MockSettings
+  - TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TaskRunner.Test
+  nameWithType: TaskRunner.Test
+  fullName: TaskRunner.Test
+  type: Namespace
+  assemblies:
+  - TaskRunner.Test
+references:
+- uid: TaskRunner.Test.MockSender`1
+  commentId: T:TaskRunner.Test.MockSender`1
+  name: MockSender<T>
+  nameWithType: MockSender<T>
+  fullName: TaskRunner.Test.MockSender<T>
+  nameWithType.vb: MockSender(Of T)
+  fullName.vb: TaskRunner.Test.MockSender(Of T)
+  name.vb: MockSender(Of T)
+  spec.csharp:
+  - uid: TaskRunner.Test.MockSender`1
+    name: MockSender
+    nameWithType: MockSender
+    fullName: TaskRunner.Test.MockSender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.Test.MockSender`1
+    name: MockSender
+    nameWithType: MockSender
+    fullName: TaskRunner.Test.MockSender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.Test.MockSettings
+  commentId: T:TaskRunner.Test.MockSettings
+  name: MockSettings
+  nameWithType: MockSettings
+  fullName: TaskRunner.Test.MockSettings
+- uid: TaskRunner.Test.TestTaskRunner
+  commentId: T:TaskRunner.Test.TestTaskRunner
+  name: TestTaskRunner
+  nameWithType: TestTaskRunner
+  fullName: TaskRunner.Test.TestTaskRunner

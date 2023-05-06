@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.ITaskRunner`1
+  commentId: T:TaskRunner.ITaskRunner`1
+  id: ITaskRunner`1
+  parent: TaskRunner
+  children:
+  - TaskRunner.ITaskRunner`1.Add(`0)
+  - TaskRunner.ITaskRunner`1.Remove(`0)
+  - TaskRunner.ITaskRunner`1.RunningCount
+  langs:
+  - csharp
+  - vb
+  name: ITaskRunner<T>
+  nameWithType: ITaskRunner<T>
+  fullName: TaskRunner.ITaskRunner<T>
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ITaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: ITaskRunner
+    path: src/TaskRunner/ITaskRunner.cs
+    startLine: 9
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nRun up to <code>ISettings.ConcurrentCount</code> tasks that awaits <code>ISender.SendAsync</code> method.\nEqual items can be running only in one task.\nAllows rerun of the equal items only after <code>ISettings.Interval</code> from task start. \nWhen multiple equal items are added during task processing and\nprocessing ends or <code>ISettings.Interval</code> passes, task will run only once again. \n"
+  example: []
+  syntax:
+    content: >-
+      public interface ITaskRunner<in T>
+          where T : IEquatable<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface ITaskRunner(Of In T As IEquatable(Of T))
+  nameWithType.vb: ITaskRunner(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: TaskRunner.ITaskRunner(Of T)
+  name.vb: ITaskRunner(Of T)
+- uid: TaskRunner.ITaskRunner`1.RunningCount
+  commentId: P:TaskRunner.ITaskRunner`1.RunningCount
+  id: RunningCount
+  parent: TaskRunner.ITaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: RunningCount
+  nameWithType: ITaskRunner<T>.RunningCount
+  fullName: TaskRunner.ITaskRunner<T>.RunningCount
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ITaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: RunningCount
+    path: src/TaskRunner/ITaskRunner.cs
+    startLine: 14
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nCurrently running tasks count.\n"
+  example: []
+  syntax:
+    content: int RunningCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property RunningCount As Integer
+  overload: TaskRunner.ITaskRunner`1.RunningCount*
+  nameWithType.vb: ITaskRunner(Of T).RunningCount
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: TaskRunner.ITaskRunner(Of T).RunningCount
+- uid: TaskRunner.ITaskRunner`1.Add(`0)
+  commentId: M:TaskRunner.ITaskRunner`1.Add(`0)
+  id: Add(`0)
+  parent: TaskRunner.ITaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: Add(T)
+  nameWithType: ITaskRunner<T>.Add(T)
+  fullName: TaskRunner.ITaskRunner<T>.Add(T)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ITaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Add
+    path: src/TaskRunner/ITaskRunner.cs
+    startLine: 19
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nAdds an item for processing.\n"
+  example: []
+  syntax:
+    content: void Add(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+    content.vb: Sub Add(item As T)
+  overload: TaskRunner.ITaskRunner`1.Add*
+  nameWithType.vb: ITaskRunner(Of T).Add(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Add(T)
+- uid: TaskRunner.ITaskRunner`1.Remove(`0)
+  commentId: M:TaskRunner.ITaskRunner`1.Remove(`0)
+  id: Remove(`0)
+  parent: TaskRunner.ITaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: Remove(T)
+  nameWithType: ITaskRunner<T>.Remove(T)
+  fullName: TaskRunner.ITaskRunner<T>.Remove(T)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ITaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Remove
+    path: src/TaskRunner/ITaskRunner.cs
+    startLine: 24
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nRemoves an item from future processing.\n"
+  example: []
+  syntax:
+    content: void Remove(T key)
+    parameters:
+    - id: key
+      type: '{T}'
+    content.vb: Sub Remove(key As T)
+  overload: TaskRunner.ITaskRunner`1.Remove*
+  nameWithType.vb: ITaskRunner(Of T).Remove(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Remove(T)
+references:
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: TaskRunner.ITaskRunner`1.RunningCount*
+  commentId: Overload:TaskRunner.ITaskRunner`1.RunningCount
+  name: RunningCount
+  nameWithType: ITaskRunner<T>.RunningCount
+  fullName: TaskRunner.ITaskRunner<T>.RunningCount
+  nameWithType.vb: ITaskRunner(Of T).RunningCount
+  fullName.vb: TaskRunner.ITaskRunner(Of T).RunningCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskRunner.ITaskRunner`1.Add*
+  commentId: Overload:TaskRunner.ITaskRunner`1.Add
+  name: Add
+  nameWithType: ITaskRunner<T>.Add
+  fullName: TaskRunner.ITaskRunner<T>.Add
+  nameWithType.vb: ITaskRunner(Of T).Add
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Add
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TaskRunner.ITaskRunner`1.Remove*
+  commentId: Overload:TaskRunner.ITaskRunner`1.Remove
+  name: Remove
+  nameWithType: ITaskRunner<T>.Remove
+  fullName: TaskRunner.ITaskRunner<T>.Remove
+  nameWithType.vb: ITaskRunner(Of T).Remove
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Remove

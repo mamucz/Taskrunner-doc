@@ -1,0 +1,28 @@
+### YamlMime:TableOfContent
+- uid: TaskRunner
+  name: TaskRunner
+  items:
+  - uid: TaskRunner.ISender`1
+    name: ISender<T>
+    name.vb: ISender(Of T)
+  - uid: TaskRunner.ISettings
+    name: ISettings
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner<T>
+    name.vb: ITaskRunner(Of T)
+  - uid: TaskRunner.TaskRunner`1
+    name: TaskRunner<T>
+    name.vb: TaskRunner(Of T)
+  - uid: TaskRunner.TaskRunnerItem`1
+    name: TaskRunnerItem<T>
+    name.vb: TaskRunnerItem(Of T)
+- uid: TaskRunner.Test
+  name: TaskRunner.Test
+  items:
+  - uid: TaskRunner.Test.MockSender`1
+    name: MockSender<T>
+    name.vb: MockSender(Of T)
+  - uid: TaskRunner.Test.MockSettings
+    name: MockSettings
+  - uid: TaskRunner.Test.TestTaskRunner
+    name: TestTaskRunner

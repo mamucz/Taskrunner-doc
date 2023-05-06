@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.Test.MockSettings
+  commentId: T:TaskRunner.Test.MockSettings
+  id: MockSettings
+  parent: TaskRunner.Test
+  children:
+  - TaskRunner.Test.MockSettings.ConcurrentCount
+  - TaskRunner.Test.MockSettings.Interval
+  langs:
+  - csharp
+  - vb
+  name: MockSettings
+  nameWithType: MockSettings
+  fullName: TaskRunner.Test.MockSettings
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSettings.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: MockSettings
+    path: src/TaskRunner.Test/MockSettings.cs
+    startLine: 2
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: 'public sealed class MockSettings : ISettings'
+    content.vb: >-
+      Public NotInheritable Class MockSettings
+          Implements ISettings
+  inheritance:
+  - System.Object
+  implements:
+  - TaskRunner.ISettings
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TaskRunner.Test.MockSettings.Interval
+  commentId: P:TaskRunner.Test.MockSettings.Interval
+  id: Interval
+  parent: TaskRunner.Test.MockSettings
+  langs:
+  - csharp
+  - vb
+  name: Interval
+  nameWithType: MockSettings.Interval
+  fullName: TaskRunner.Test.MockSettings.Interval
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSettings.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Interval
+    path: src/TaskRunner.Test/MockSettings.cs
+    startLine: 4
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public TimeSpan Interval { get; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public ReadOnly Property Interval As TimeSpan
+  overload: TaskRunner.Test.MockSettings.Interval*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TaskRunner.Test.MockSettings.ConcurrentCount
+  commentId: P:TaskRunner.Test.MockSettings.ConcurrentCount
+  id: ConcurrentCount
+  parent: TaskRunner.Test.MockSettings
+  langs:
+  - csharp
+  - vb
+  name: ConcurrentCount
+  nameWithType: MockSettings.ConcurrentCount
+  fullName: TaskRunner.Test.MockSettings.ConcurrentCount
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSettings.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: ConcurrentCount
+    path: src/TaskRunner.Test/MockSettings.cs
+    startLine: 5
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public int ConcurrentCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ConcurrentCount As Integer
+  overload: TaskRunner.Test.MockSettings.ConcurrentCount*
+  implements:
+  - TaskRunner.ISettings.ConcurrentCount
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TaskRunner.Test
+  commentId: N:TaskRunner.Test
+  name: TaskRunner.Test
+  nameWithType: TaskRunner.Test
+  fullName: TaskRunner.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TaskRunner.ISettings
+  commentId: T:TaskRunner.ISettings
+  parent: TaskRunner
+  name: ISettings
+  nameWithType: ISettings
+  fullName: TaskRunner.ISettings
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: TaskRunner.Test.MockSettings.Interval*
+  commentId: Overload:TaskRunner.Test.MockSettings.Interval
+  name: Interval
+  nameWithType: MockSettings.Interval
+  fullName: TaskRunner.Test.MockSettings.Interval
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: TaskRunner.Test.MockSettings.ConcurrentCount*
+  commentId: Overload:TaskRunner.Test.MockSettings.ConcurrentCount
+  name: ConcurrentCount
+  nameWithType: MockSettings.ConcurrentCount
+  fullName: TaskRunner.Test.MockSettings.ConcurrentCount
+- uid: TaskRunner.ISettings.ConcurrentCount
+  commentId: P:TaskRunner.ISettings.ConcurrentCount
+  parent: TaskRunner.ISettings
+  name: ConcurrentCount
+  nameWithType: ISettings.ConcurrentCount
+  fullName: TaskRunner.ISettings.ConcurrentCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

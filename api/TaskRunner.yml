@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  id: TaskRunner
+  children:
+  - TaskRunner.ISender`1
+  - TaskRunner.ISettings
+  - TaskRunner.ITaskRunner`1
+  - TaskRunner.TaskRunner`1
+  - TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+  type: Namespace
+  assemblies:
+  - TaskRunner
+references:
+- uid: TaskRunner.ISender`1
+  commentId: T:TaskRunner.ISender`1
+  name: ISender<T>
+  nameWithType: ISender<T>
+  fullName: TaskRunner.ISender<T>
+  nameWithType.vb: ISender(Of T)
+  fullName.vb: TaskRunner.ISender(Of T)
+  name.vb: ISender(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.ISettings
+  commentId: T:TaskRunner.ISettings
+  parent: TaskRunner
+  name: ISettings
+  nameWithType: ISettings
+  fullName: TaskRunner.ISettings
+- uid: TaskRunner.ITaskRunner`1
+  commentId: T:TaskRunner.ITaskRunner`1
+  name: ITaskRunner<T>
+  nameWithType: ITaskRunner<T>
+  fullName: TaskRunner.ITaskRunner<T>
+  nameWithType.vb: ITaskRunner(Of T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T)
+  name.vb: ITaskRunner(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner
+    nameWithType: ITaskRunner
+    fullName: TaskRunner.ITaskRunner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner
+    nameWithType: ITaskRunner
+    fullName: TaskRunner.ITaskRunner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.TaskRunner`1
+  commentId: T:TaskRunner.TaskRunner`1
+  name: TaskRunner<T>
+  nameWithType: TaskRunner<T>
+  fullName: TaskRunner.TaskRunner<T>
+  nameWithType.vb: TaskRunner(Of T)
+  fullName.vb: TaskRunner.TaskRunner(Of T)
+  name.vb: TaskRunner(Of T)
+  spec.csharp:
+  - uid: TaskRunner.TaskRunner`1
+    name: TaskRunner
+    nameWithType: TaskRunner
+    fullName: TaskRunner.TaskRunner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.TaskRunner`1
+    name: TaskRunner
+    nameWithType: TaskRunner
+    fullName: TaskRunner.TaskRunner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.TaskRunnerItem`1
+  commentId: T:TaskRunner.TaskRunnerItem`1
+  name: TaskRunnerItem<T>
+  nameWithType: TaskRunnerItem<T>
+  fullName: TaskRunner.TaskRunnerItem<T>
+  nameWithType.vb: TaskRunnerItem(Of T)
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T)
+  name.vb: TaskRunnerItem(Of T)
+  spec.csharp:
+  - uid: TaskRunner.TaskRunnerItem`1
+    name: TaskRunnerItem
+    nameWithType: TaskRunnerItem
+    fullName: TaskRunner.TaskRunnerItem
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.TaskRunnerItem`1
+    name: TaskRunnerItem
+    nameWithType: TaskRunnerItem
+    fullName: TaskRunner.TaskRunnerItem
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner

@@ -1,0 +1,842 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.TaskRunnerItem`1
+  commentId: T:TaskRunner.TaskRunnerItem`1
+  id: TaskRunnerItem`1
+  parent: TaskRunner
+  children:
+  - TaskRunner.TaskRunnerItem`1.#ctor(`0)
+  - TaskRunner.TaskRunnerItem`1.IsRegistered
+  - TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  - TaskRunner.TaskRunnerItem`1.Key
+  - TaskRunner.TaskRunnerItem`1.RemoveRunning
+  - TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart(System.Int64)
+  - TaskRunner.TaskRunnerItem`1.TryGetLastStart(System.Int64@)
+  - TaskRunner.TaskRunnerItem`1.TryRegister
+  - TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  - TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  - TaskRunner.TaskRunnerItem`1.TryRun
+  langs:
+  - csharp
+  - vb
+  name: TaskRunnerItem<T>
+  nameWithType: TaskRunnerItem<T>
+  fullName: TaskRunner.TaskRunnerItem<T>
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TaskRunnerItem
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 2
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public sealed class TaskRunnerItem<T>
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class TaskRunnerItem(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TaskRunnerItem(Of T)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T)
+  name.vb: TaskRunnerItem(Of T)
+- uid: TaskRunner.TaskRunnerItem`1.Key
+  commentId: P:TaskRunner.TaskRunnerItem`1.Key
+  id: Key
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: TaskRunnerItem<T>.Key
+  fullName: TaskRunner.TaskRunnerItem<T>.Key
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Key
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 4
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public T Key { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Key As T
+  overload: TaskRunner.TaskRunnerItem`1.Key*
+  nameWithType.vb: TaskRunnerItem(Of T).Key
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).Key
+- uid: TaskRunner.TaskRunnerItem`1.#ctor(`0)
+  commentId: M:TaskRunner.TaskRunnerItem`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TaskRunnerItem(T)
+  nameWithType: TaskRunnerItem<T>.TaskRunnerItem(T)
+  fullName: TaskRunner.TaskRunnerItem<T>.TaskRunnerItem(T)
+  type: Constructor
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: .ctor
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 10
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public TaskRunnerItem(T key)
+    parameters:
+    - id: key
+      type: '{T}'
+    content.vb: Public Sub New(key As T)
+  overload: TaskRunner.TaskRunnerItem`1.#ctor*
+  nameWithType.vb: TaskRunnerItem(Of T).TaskRunnerItem(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TaskRunnerItem(T)
+- uid: TaskRunner.TaskRunnerItem`1.IsRegistered
+  commentId: M:TaskRunner.TaskRunnerItem`1.IsRegistered
+  id: IsRegistered
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: IsRegistered()
+  nameWithType: TaskRunnerItem<T>.IsRegistered()
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRegistered()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: IsRegistered
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 12
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool IsRegistered()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsRegistered As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.IsRegistered*
+  nameWithType.vb: TaskRunnerItem(Of T).IsRegistered()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRegistered()
+- uid: TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  commentId: M:TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  id: IsRunningOrNotRegistered
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: IsRunningOrNotRegistered()
+  nameWithType: TaskRunnerItem<T>.IsRunningOrNotRegistered()
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRunningOrNotRegistered()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: IsRunningOrNotRegistered
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 13
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool IsRunningOrNotRegistered()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsRunningOrNotRegistered As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered*
+  nameWithType.vb: TaskRunnerItem(Of T).IsRunningOrNotRegistered()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRunningOrNotRegistered()
+- uid: TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart(System.Int64)
+  commentId: M:TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart(System.Int64)
+  id: SetTimeCpuLastStart(System.Int64)
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: SetTimeCpuLastStart(Int64)
+  nameWithType: TaskRunnerItem<T>.SetTimeCpuLastStart(Int64)
+  fullName: TaskRunner.TaskRunnerItem<T>.SetTimeCpuLastStart(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: SetTimeCpuLastStart
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 14
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public void SetTimeCpuLastStart(long timeCpuLastStart)
+    parameters:
+    - id: timeCpuLastStart
+      type: System.Int64
+    content.vb: Public Sub SetTimeCpuLastStart(timeCpuLastStart As Long)
+  overload: TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart*
+  nameWithType.vb: TaskRunnerItem(Of T).SetTimeCpuLastStart(Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).SetTimeCpuLastStart(System.Int64)
+- uid: TaskRunner.TaskRunnerItem`1.TryRun
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRun
+  id: TryRun
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TryRun()
+  nameWithType: TaskRunnerItem<T>.TryRun()
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRun()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TryRun
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 15
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool TryRun()
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryRun As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.TryRun*
+  nameWithType.vb: TaskRunnerItem(Of T).TryRun()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRun()
+- uid: TaskRunner.TaskRunnerItem`1.RemoveRunning
+  commentId: M:TaskRunner.TaskRunnerItem`1.RemoveRunning
+  id: RemoveRunning
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveRunning()
+  nameWithType: TaskRunnerItem<T>.RemoveRunning()
+  fullName: TaskRunner.TaskRunnerItem<T>.RemoveRunning()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: RemoveRunning
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 16
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public void RemoveRunning()
+    content.vb: Public Sub RemoveRunning
+  overload: TaskRunner.TaskRunnerItem`1.RemoveRunning*
+  nameWithType.vb: TaskRunnerItem(Of T).RemoveRunning()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).RemoveRunning()
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  id: TryRemoveRegisteredDuringRun
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TryRemoveRegisteredDuringRun()
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegisteredDuringRun()
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegisteredDuringRun()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TryRemoveRegisteredDuringRun
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 17
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool TryRemoveRegisteredDuringRun()
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryRemoveRegisteredDuringRun As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun*
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun()
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  id: TryRemoveRegistered
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TryRemoveRegistered()
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegistered()
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegistered()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TryRemoveRegistered
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 18
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool TryRemoveRegistered()
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryRemoveRegistered As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.TryRemoveRegistered*
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegistered()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegistered()
+- uid: TaskRunner.TaskRunnerItem`1.TryGetLastStart(System.Int64@)
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryGetLastStart(System.Int64@)
+  id: TryGetLastStart(System.Int64@)
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TryGetLastStart(out Int64)
+  nameWithType: TaskRunnerItem<T>.TryGetLastStart(out Int64)
+  fullName: TaskRunner.TaskRunnerItem<T>.TryGetLastStart(out System.Int64)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TryGetLastStart
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 20
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool TryGetLastStart(out long timeCpuLastStart)
+    parameters:
+    - id: timeCpuLastStart
+      type: System.Int64
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetLastStart(ByRef timeCpuLastStart As Long) As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.TryGetLastStart*
+  nameWithType.vb: TaskRunnerItem(Of T).TryGetLastStart(ByRef Int64)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryGetLastStart(ByRef System.Int64)
+  name.vb: TryGetLastStart(ByRef Int64)
+- uid: TaskRunner.TaskRunnerItem`1.TryRegister
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRegister
+  id: TryRegister
+  parent: TaskRunner.TaskRunnerItem`1
+  langs:
+  - csharp
+  - vb
+  name: TryRegister()
+  nameWithType: TaskRunnerItem<T>.TryRegister()
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRegister()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunnerItem.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TryRegister
+    path: src/TaskRunner/TaskRunnerItem.cs
+    startLine: 26
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public bool TryRegister()
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryRegister As Boolean
+  overload: TaskRunner.TaskRunnerItem`1.TryRegister*
+  nameWithType.vb: TaskRunnerItem(Of T).TryRegister()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRegister()
+references:
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskRunner.TaskRunnerItem`1.Key*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.Key
+  name: Key
+  nameWithType: TaskRunnerItem<T>.Key
+  fullName: TaskRunner.TaskRunnerItem<T>.Key
+  nameWithType.vb: TaskRunnerItem(Of T).Key
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).Key
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TaskRunner.TaskRunnerItem`1.#ctor*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.#ctor
+  name: TaskRunnerItem
+  nameWithType: TaskRunnerItem<T>.TaskRunnerItem
+  fullName: TaskRunner.TaskRunnerItem<T>.TaskRunnerItem
+  nameWithType.vb: TaskRunnerItem(Of T).TaskRunnerItem
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TaskRunnerItem
+- uid: TaskRunner.TaskRunnerItem`1.IsRegistered*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.IsRegistered
+  name: IsRegistered
+  nameWithType: TaskRunnerItem<T>.IsRegistered
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRegistered
+  nameWithType.vb: TaskRunnerItem(Of T).IsRegistered
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRegistered
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  name: IsRunningOrNotRegistered
+  nameWithType: TaskRunnerItem<T>.IsRunningOrNotRegistered
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRunningOrNotRegistered
+  nameWithType.vb: TaskRunnerItem(Of T).IsRunningOrNotRegistered
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRunningOrNotRegistered
+- uid: TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart
+  name: SetTimeCpuLastStart
+  nameWithType: TaskRunnerItem<T>.SetTimeCpuLastStart
+  fullName: TaskRunner.TaskRunnerItem<T>.SetTimeCpuLastStart
+  nameWithType.vb: TaskRunnerItem(Of T).SetTimeCpuLastStart
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).SetTimeCpuLastStart
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TaskRunner.TaskRunnerItem`1.TryRun*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRun
+  name: TryRun
+  nameWithType: TaskRunnerItem<T>.TryRun
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRun
+  nameWithType.vb: TaskRunnerItem(Of T).TryRun
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRun
+- uid: TaskRunner.TaskRunnerItem`1.RemoveRunning*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.RemoveRunning
+  name: RemoveRunning
+  nameWithType: TaskRunnerItem<T>.RemoveRunning
+  fullName: TaskRunner.TaskRunnerItem<T>.RemoveRunning
+  nameWithType.vb: TaskRunnerItem(Of T).RemoveRunning
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).RemoveRunning
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  name: TryRemoveRegisteredDuringRun
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegisteredDuringRun
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegisteredDuringRun
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegistered*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  name: TryRemoveRegistered
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegistered
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegistered
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegistered
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegistered
+- uid: TaskRunner.TaskRunnerItem`1.TryGetLastStart*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryGetLastStart
+  name: TryGetLastStart
+  nameWithType: TaskRunnerItem<T>.TryGetLastStart
+  fullName: TaskRunner.TaskRunnerItem<T>.TryGetLastStart
+  nameWithType.vb: TaskRunnerItem(Of T).TryGetLastStart
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryGetLastStart
+- uid: TaskRunner.TaskRunnerItem`1.TryRegister*
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRegister
+  name: TryRegister
+  nameWithType: TaskRunnerItem<T>.TryRegister
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRegister
+  nameWithType.vb: TaskRunnerItem(Of T).TryRegister
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRegister

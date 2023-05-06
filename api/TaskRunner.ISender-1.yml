@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.ISender`1
+  commentId: T:TaskRunner.ISender`1
+  id: ISender`1
+  parent: TaskRunner
+  children:
+  - TaskRunner.ISender`1.SendAsync(`0)
+  langs:
+  - csharp
+  - vb
+  name: ISender<T>
+  nameWithType: ISender<T>
+  fullName: TaskRunner.ISender<T>
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ISender.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: ISender
+    path: src/TaskRunner/ISender.cs
+    startLine: 5
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nInterface for sending request\n"
+  example: []
+  syntax:
+    content: public interface ISender<in T>
+    typeParameters:
+    - id: T
+      description: Obejct to send
+    content.vb: Public Interface ISender(Of In T)
+  nameWithType.vb: ISender(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: TaskRunner.ISender(Of T)
+  name.vb: ISender(Of T)
+- uid: TaskRunner.ISender`1.SendAsync(`0)
+  commentId: M:TaskRunner.ISender`1.SendAsync(`0)
+  id: SendAsync(`0)
+  parent: TaskRunner.ISender`1
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(T)
+  nameWithType: ISender<T>.SendAsync(T)
+  fullName: TaskRunner.ISender<T>.SendAsync(T)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ISender.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: SendAsync
+    path: src/TaskRunner/ISender.cs
+    startLine: 12
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nSend the object async\n"
+  example: []
+  syntax:
+    content: Task SendAsync(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: object to send
+    return:
+      type: Task
+      description: return task
+    content.vb: Function SendAsync(item As T) As Task
+  overload: TaskRunner.ISender`1.SendAsync*
+  nameWithType.vb: ISender(Of T).SendAsync(T)
+  fullName.vb: TaskRunner.ISender(Of T).SendAsync(T)
+references:
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: TaskRunner.ISender`1.SendAsync*
+  commentId: Overload:TaskRunner.ISender`1.SendAsync
+  name: SendAsync
+  nameWithType: ISender<T>.SendAsync
+  fullName: TaskRunner.ISender<T>.SendAsync
+  nameWithType.vb: ISender(Of T).SendAsync
+  fullName.vb: TaskRunner.ISender(Of T).SendAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

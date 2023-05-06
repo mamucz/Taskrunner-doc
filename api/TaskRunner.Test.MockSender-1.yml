@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.Test.MockSender`1
+  commentId: T:TaskRunner.Test.MockSender`1
+  id: MockSender`1
+  parent: TaskRunner.Test
+  children:
+  - TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  - TaskRunner.Test.MockSender`1.SendAsync(`0)
+  - TaskRunner.Test.MockSender`1.SendAsyncReturn
+  langs:
+  - csharp
+  - vb
+  name: MockSender<T>
+  nameWithType: MockSender<T>
+  fullName: TaskRunner.Test.MockSender<T>
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSender.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: MockSender
+    path: src/TaskRunner.Test/MockSender.cs
+    startLine: 2
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: 'public sealed class MockSender<T> : ISender<T>'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public NotInheritable Class MockSender(Of T)
+          Implements ISender(Of T)
+  inheritance:
+  - System.Object
+  implements:
+  - TaskRunner.ISender{{T}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: MockSender(Of T)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+  fullName.vb: TaskRunner.Test.MockSender(Of T)
+  name.vb: MockSender(Of T)
+- uid: TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  commentId: P:TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  id: OnSendAsyncCalled
+  parent: TaskRunner.Test.MockSender`1
+  langs:
+  - csharp
+  - vb
+  name: OnSendAsyncCalled
+  nameWithType: MockSender<T>.OnSendAsyncCalled
+  fullName: TaskRunner.Test.MockSender<T>.OnSendAsyncCalled
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSender.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: OnSendAsyncCalled
+    path: src/TaskRunner.Test/MockSender.cs
+    startLine: 4
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public EventHandler<T>? OnSendAsyncCalled { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{EventHandler{{T}}}
+    content.vb: Public Property OnSendAsyncCalled As EventHandler(Of T)?
+  overload: TaskRunner.Test.MockSender`1.OnSendAsyncCalled*
+  nameWithType.vb: MockSender(Of T).OnSendAsyncCalled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.Test.MockSender(Of T).OnSendAsyncCalled
+- uid: TaskRunner.Test.MockSender`1.SendAsyncReturn
+  commentId: P:TaskRunner.Test.MockSender`1.SendAsyncReturn
+  id: SendAsyncReturn
+  parent: TaskRunner.Test.MockSender`1
+  langs:
+  - csharp
+  - vb
+  name: SendAsyncReturn
+  nameWithType: MockSender<T>.SendAsyncReturn
+  fullName: TaskRunner.Test.MockSender<T>.SendAsyncReturn
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSender.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: SendAsyncReturn
+    path: src/TaskRunner.Test/MockSender.cs
+    startLine: 5
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public Task? SendAsyncReturn { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Task}
+    content.vb: Public Property SendAsyncReturn As Task?
+  overload: TaskRunner.Test.MockSender`1.SendAsyncReturn*
+  nameWithType.vb: MockSender(Of T).SendAsyncReturn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsyncReturn
+- uid: TaskRunner.Test.MockSender`1.SendAsync(`0)
+  commentId: M:TaskRunner.Test.MockSender`1.SendAsync(`0)
+  id: SendAsync(`0)
+  parent: TaskRunner.Test.MockSender`1
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(T)
+  nameWithType: MockSender<T>.SendAsync(T)
+  fullName: TaskRunner.Test.MockSender<T>.SendAsync(T)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/MockSender.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: SendAsync
+    path: src/TaskRunner.Test/MockSender.cs
+    startLine: 7
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public Task SendAsync(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+    return:
+      type: Task
+    content.vb: Public Function SendAsync(item As T) As Task
+  overload: TaskRunner.Test.MockSender`1.SendAsync*
+  nameWithType.vb: MockSender(Of T).SendAsync(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsync(T)
+references:
+- uid: TaskRunner.Test
+  commentId: N:TaskRunner.Test
+  name: TaskRunner.Test
+  nameWithType: TaskRunner.Test
+  fullName: TaskRunner.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TaskRunner.ISender{{T}}
+  commentId: T:TaskRunner.ISender{`0}
+  parent: TaskRunner
+  definition: TaskRunner.ISender`1
+  name: ISender<T>
+  nameWithType: ISender<T>
+  fullName: TaskRunner.ISender<T>
+  nameWithType.vb: ISender(Of T)
+  fullName.vb: TaskRunner.ISender(Of T)
+  name.vb: ISender(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskRunner.ISender`1
+  commentId: T:TaskRunner.ISender`1
+  name: ISender<T>
+  nameWithType: ISender<T>
+  fullName: TaskRunner.ISender<T>
+  nameWithType.vb: ISender(Of T)
+  fullName.vb: TaskRunner.ISender(Of T)
+  name.vb: ISender(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: TaskRunner.Test.MockSender`1.OnSendAsyncCalled*
+  commentId: Overload:TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  name: OnSendAsyncCalled
+  nameWithType: MockSender<T>.OnSendAsyncCalled
+  fullName: TaskRunner.Test.MockSender<T>.OnSendAsyncCalled
+  nameWithType.vb: MockSender(Of T).OnSendAsyncCalled
+  fullName.vb: TaskRunner.Test.MockSender(Of T).OnSendAsyncCalled
+- uid: System.Nullable{EventHandler{{T}}}
+  commentId: T:System.Nullable{EventHandler{`0}}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EventHandler<T>>
+  nameWithType: Nullable<EventHandler<T>>
+  fullName: System.Nullable<EventHandler<T>>
+  nameWithType.vb: Nullable(Of EventHandler(Of T))
+  fullName.vb: System.Nullable(Of EventHandler(Of T))
+  name.vb: Nullable(Of EventHandler(Of T))
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.Test.MockSender`1.SendAsyncReturn*
+  commentId: Overload:TaskRunner.Test.MockSender`1.SendAsyncReturn
+  name: SendAsyncReturn
+  nameWithType: MockSender<T>.SendAsyncReturn
+  fullName: TaskRunner.Test.MockSender<T>.SendAsyncReturn
+  nameWithType.vb: MockSender(Of T).SendAsyncReturn
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsyncReturn
+- uid: System.Nullable{Task}
+  commentId: T:System.Nullable{Task}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Task>
+  nameWithType: Nullable<Task>
+  fullName: System.Nullable<Task>
+  nameWithType.vb: Nullable(Of Task)
+  fullName.vb: System.Nullable(Of Task)
+  name.vb: Nullable(Of Task)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Task
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Task
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.Test.MockSender`1.SendAsync*
+  commentId: Overload:TaskRunner.Test.MockSender`1.SendAsync
+  name: SendAsync
+  nameWithType: MockSender<T>.SendAsync
+  fullName: TaskRunner.Test.MockSender<T>.SendAsync
+  nameWithType.vb: MockSender(Of T).SendAsync
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

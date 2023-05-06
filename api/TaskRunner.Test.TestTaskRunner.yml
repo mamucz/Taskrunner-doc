@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.Test.TestTaskRunner
+  commentId: T:TaskRunner.Test.TestTaskRunner
+  id: TestTaskRunner
+  parent: TaskRunner.Test
+  children:
+  - TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  - TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  - TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  - TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  - TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  - TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  - TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  - TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  langs:
+  - csharp
+  - vb
+  name: TestTaskRunner
+  nameWithType: TestTaskRunner
+  fullName: TaskRunner.Test.TestTaskRunner
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestTaskRunner
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 6
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public class TestTaskRunner
+    content.vb: Public Class TestTaskRunner
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  id: TestAddThenProcess
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestAddThenProcess()
+  nameWithType: TestTaskRunner.TestAddThenProcess()
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddThenProcess()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestAddThenProcess
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 8
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestAddThenProcess()
+    return:
+      type: Task
+    content.vb: Public Function TestAddThenProcess As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestAddThenProcess*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  id: TestAddLongTask
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestAddLongTask()
+  nameWithType: TestTaskRunner.TestAddLongTask()
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddLongTask()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestAddLongTask
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 39
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestAddLongTask()
+    return:
+      type: Task
+    content.vb: Public Function TestAddLongTask As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestAddLongTask*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  id: TestAddFourDifferentNamesThenProcess
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestAddFourDifferentNamesThenProcess()
+  nameWithType: TestTaskRunner.TestAddFourDifferentNamesThenProcess()
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestAddFourDifferentNamesThenProcess
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 86
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestAddFourDifferentNamesThenProcess()
+    return:
+      type: Task
+    content.vb: Public Function TestAddFourDifferentNamesThenProcess As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  id: TestAddFourOrdersSameNamesThenProcess
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestAddFourOrdersSameNamesThenProcess()
+  nameWithType: TestTaskRunner.TestAddFourOrdersSameNamesThenProcess()
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestAddFourOrdersSameNamesThenProcess
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 141
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestAddFourOrdersSameNamesThenProcess()
+    return:
+      type: Task
+    content.vb: Public Function TestAddFourOrdersSameNamesThenProcess As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  id: TestAddMultipleTimes
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestAddMultipleTimes()
+  nameWithType: TestTaskRunner.TestAddMultipleTimes()
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestAddMultipleTimes
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 184
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestAddMultipleTimes()
+    return:
+      type: Task
+    content.vb: Public Function TestAddMultipleTimes As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  id: TestBiggerFlow
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestBiggerFlow()
+  nameWithType: TestTaskRunner.TestBiggerFlow()
+  fullName: TaskRunner.Test.TestTaskRunner.TestBiggerFlow()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestBiggerFlow
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 233
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestBiggerFlow()
+    return:
+      type: Task
+    content.vb: Public Function TestBiggerFlow As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestBiggerFlow*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  id: TestRunPrioritizeOldest
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestRunPrioritizeOldest()
+  nameWithType: TestTaskRunner.TestRunPrioritizeOldest()
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestRunPrioritizeOldest
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 306
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestRunPrioritizeOldest()
+    return:
+      type: Task
+    content.vb: Public Function TestRunPrioritizeOldest As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  id: TestRunRemoveAdded
+  parent: TaskRunner.Test.TestTaskRunner
+  langs:
+  - csharp
+  - vb
+  name: TestRunRemoveAdded()
+  nameWithType: TestTaskRunner.TestRunRemoveAdded()
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner.Test/TestTaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TestRunRemoveAdded
+    path: src/TaskRunner.Test/TestTaskRunner.cs
+    startLine: 414
+  assemblies:
+  - TaskRunner.Test
+  namespace: TaskRunner.Test
+  syntax:
+    content: public async Task TestRunRemoveAdded()
+    return:
+      type: Task
+    content.vb: Public Function TestRunRemoveAdded As Task
+  overload: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: TaskRunner.Test
+  commentId: N:TaskRunner.Test
+  name: TaskRunner.Test
+  nameWithType: TaskRunner.Test
+  fullName: TaskRunner.Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskRunner.Test.TestTaskRunner.TestAddThenProcess*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  name: TestAddThenProcess
+  nameWithType: TestTaskRunner.TestAddThenProcess
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: TaskRunner.Test.TestTaskRunner.TestAddLongTask*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  name: TestAddLongTask
+  nameWithType: TestTaskRunner.TestAddLongTask
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddLongTask
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  name: TestAddFourDifferentNamesThenProcess
+  nameWithType: TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  name: TestAddFourOrdersSameNamesThenProcess
+  nameWithType: TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+- uid: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  name: TestAddMultipleTimes
+  nameWithType: TestTaskRunner.TestAddMultipleTimes
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+- uid: TaskRunner.Test.TestTaskRunner.TestBiggerFlow*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  name: TestBiggerFlow
+  nameWithType: TestTaskRunner.TestBiggerFlow
+  fullName: TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+- uid: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  name: TestRunPrioritizeOldest
+  nameWithType: TestTaskRunner.TestRunPrioritizeOldest
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+- uid: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded*
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  name: TestRunRemoveAdded
+  nameWithType: TestTaskRunner.TestRunRemoveAdded
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded

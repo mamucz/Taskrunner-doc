@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.ISettings
+  commentId: T:TaskRunner.ISettings
+  id: ISettings
+  parent: TaskRunner
+  children:
+  - TaskRunner.ISettings.ConcurrentCount
+  - TaskRunner.ISettings.Interval
+  langs:
+  - csharp
+  - vb
+  name: ISettings
+  nameWithType: ISettings
+  fullName: TaskRunner.ISettings
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ISettings.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: ISettings
+    path: src/TaskRunner/ISettings.cs
+    startLine: 2
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public interface ISettings
+    content.vb: Public Interface ISettings
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TaskRunner.ISettings.Interval
+  commentId: P:TaskRunner.ISettings.Interval
+  id: Interval
+  parent: TaskRunner.ISettings
+  langs:
+  - csharp
+  - vb
+  name: Interval
+  nameWithType: ISettings.Interval
+  fullName: TaskRunner.ISettings.Interval
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ISettings.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Interval
+    path: src/TaskRunner/ISettings.cs
+    startLine: 7
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nSafety interval of each task. Cannot rerun more often.\n"
+  example: []
+  syntax:
+    content: TimeSpan Interval { get; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: ReadOnly Property Interval As TimeSpan
+  overload: TaskRunner.ISettings.Interval*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TaskRunner.ISettings.ConcurrentCount
+  commentId: P:TaskRunner.ISettings.ConcurrentCount
+  id: ConcurrentCount
+  parent: TaskRunner.ISettings
+  langs:
+  - csharp
+  - vb
+  name: ConcurrentCount
+  nameWithType: ISettings.ConcurrentCount
+  fullName: TaskRunner.ISettings.ConcurrentCount
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/ISettings.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: ConcurrentCount
+    path: src/TaskRunner/ISettings.cs
+    startLine: 12
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  summary: "\nMaximal count of simultaneously running tasks.\n"
+  example: []
+  syntax:
+    content: int ConcurrentCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ConcurrentCount As Integer
+  overload: TaskRunner.ISettings.ConcurrentCount*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: TaskRunner.ISettings.Interval*
+  commentId: Overload:TaskRunner.ISettings.Interval
+  name: Interval
+  nameWithType: ISettings.Interval
+  fullName: TaskRunner.ISettings.Interval
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: TaskRunner.ISettings.ConcurrentCount*
+  commentId: Overload:TaskRunner.ISettings.ConcurrentCount
+  name: ConcurrentCount
+  nameWithType: ISettings.ConcurrentCount
+  fullName: TaskRunner.ISettings.ConcurrentCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

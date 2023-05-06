@@ -1,0 +1,867 @@
+### YamlMime:ManagedReference
+items:
+- uid: TaskRunner.TaskRunner`1
+  commentId: T:TaskRunner.TaskRunner`1
+  id: TaskRunner`1
+  parent: TaskRunner
+  children:
+  - TaskRunner.TaskRunner`1.#ctor(TaskRunner.ISender{`0},TaskRunner.ISettings)
+  - TaskRunner.TaskRunner`1.Add(`0)
+  - TaskRunner.TaskRunner`1.Remove(`0)
+  - TaskRunner.TaskRunner`1.RunningCount
+  langs:
+  - csharp
+  - vb
+  name: TaskRunner<T>
+  nameWithType: TaskRunner<T>
+  fullName: TaskRunner.TaskRunner<T>
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: TaskRunner
+    path: src/TaskRunner/TaskRunner.cs
+    startLine: 7
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: 'public sealed class TaskRunner<T> : ITaskRunner<T> where T : IEquatable<T>'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public NotInheritable Class TaskRunner(Of T As IEquatable(Of T))
+          Implements ITaskRunner(Of T)
+  inheritance:
+  - System.Object
+  implements:
+  - TaskRunner.ITaskRunner{{T}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TaskRunner(Of T)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+  fullName.vb: TaskRunner.TaskRunner(Of T)
+  name.vb: TaskRunner(Of T)
+- uid: TaskRunner.TaskRunner`1.RunningCount
+  commentId: P:TaskRunner.TaskRunner`1.RunningCount
+  id: RunningCount
+  parent: TaskRunner.TaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: RunningCount
+  nameWithType: TaskRunner<T>.RunningCount
+  fullName: TaskRunner.TaskRunner<T>.RunningCount
+  type: Property
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: RunningCount
+    path: src/TaskRunner/TaskRunner.cs
+    startLine: 15
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public int RunningCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RunningCount As Integer
+  overload: TaskRunner.TaskRunner`1.RunningCount*
+  implements:
+  - TaskRunner.ITaskRunner{{T}}.RunningCount
+  nameWithType.vb: TaskRunner(Of T).RunningCount
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: TaskRunner.TaskRunner(Of T).RunningCount
+- uid: TaskRunner.TaskRunner`1.#ctor(TaskRunner.ISender{`0},TaskRunner.ISettings)
+  commentId: M:TaskRunner.TaskRunner`1.#ctor(TaskRunner.ISender{`0},TaskRunner.ISettings)
+  id: '#ctor(TaskRunner.ISender{`0},TaskRunner.ISettings)'
+  parent: TaskRunner.TaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: TaskRunner(ISender<T>, ISettings)
+  nameWithType: TaskRunner<T>.TaskRunner(ISender<T>, ISettings)
+  fullName: TaskRunner.TaskRunner<T>.TaskRunner(TaskRunner.ISender<T>, TaskRunner.ISettings)
+  type: Constructor
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: .ctor
+    path: src/TaskRunner/TaskRunner.cs
+    startLine: 17
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public TaskRunner(ISender<T> sender, ISettings settings)
+    parameters:
+    - id: sender
+      type: TaskRunner.ISender{{T}}
+    - id: settings
+      type: TaskRunner.ISettings
+    content.vb: Public Sub New(sender As ISender(Of T), settings As ISettings)
+  overload: TaskRunner.TaskRunner`1.#ctor*
+  nameWithType.vb: TaskRunner(Of T).TaskRunner(ISender(Of T), ISettings)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunner(Of T).TaskRunner(TaskRunner.ISender(Of T), TaskRunner.ISettings)
+  name.vb: TaskRunner(ISender(Of T), ISettings)
+- uid: TaskRunner.TaskRunner`1.Add(`0)
+  commentId: M:TaskRunner.TaskRunner`1.Add(`0)
+  id: Add(`0)
+  parent: TaskRunner.TaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: Add(T)
+  nameWithType: TaskRunner<T>.Add(T)
+  fullName: TaskRunner.TaskRunner<T>.Add(T)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Add
+    path: src/TaskRunner/TaskRunner.cs
+    startLine: 29
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public void Add(T key)
+    parameters:
+    - id: key
+      type: '{T}'
+    content.vb: Public Sub Add(key As T)
+  overload: TaskRunner.TaskRunner`1.Add*
+  implements:
+  - TaskRunner.ITaskRunner{{T}}.Add({T})
+  nameWithType.vb: TaskRunner(Of T).Add(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunner(Of T).Add(T)
+- uid: TaskRunner.TaskRunner`1.Remove(`0)
+  commentId: M:TaskRunner.TaskRunner`1.Remove(`0)
+  id: Remove(`0)
+  parent: TaskRunner.TaskRunner`1
+  langs:
+  - csharp
+  - vb
+  name: Remove(T)
+  nameWithType: TaskRunner<T>.Remove(T)
+  fullName: TaskRunner.TaskRunner<T>.Remove(T)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/TaskRunner/TaskRunner.cs
+      branch: master
+      repo: https://github.com/mamucz/TaskRunner
+    id: Remove
+    path: src/TaskRunner/TaskRunner.cs
+    startLine: 47
+  assemblies:
+  - TaskRunner
+  namespace: TaskRunner
+  syntax:
+    content: public void Remove(T key)
+    parameters:
+    - id: key
+      type: '{T}'
+    content.vb: Public Sub Remove(key As T)
+  overload: TaskRunner.TaskRunner`1.Remove*
+  implements:
+  - TaskRunner.ITaskRunner{{T}}.Remove({T})
+  nameWithType.vb: TaskRunner(Of T).Remove(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskRunner.TaskRunner(Of T).Remove(T)
+references:
+- uid: TaskRunner
+  commentId: N:TaskRunner
+  name: TaskRunner
+  nameWithType: TaskRunner
+  fullName: TaskRunner
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TaskRunner.ITaskRunner{{T}}
+  commentId: T:TaskRunner.ITaskRunner{`0}
+  parent: TaskRunner
+  definition: TaskRunner.ITaskRunner`1
+  name: ITaskRunner<T>
+  nameWithType: ITaskRunner<T>
+  fullName: TaskRunner.ITaskRunner<T>
+  nameWithType.vb: ITaskRunner(Of T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T)
+  name.vb: ITaskRunner(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner
+    nameWithType: ITaskRunner
+    fullName: TaskRunner.ITaskRunner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner
+    nameWithType: ITaskRunner
+    fullName: TaskRunner.ITaskRunner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TaskRunner.ITaskRunner`1
+  commentId: T:TaskRunner.ITaskRunner`1
+  name: ITaskRunner<T>
+  nameWithType: ITaskRunner<T>
+  fullName: TaskRunner.ITaskRunner<T>
+  nameWithType.vb: ITaskRunner(Of T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T)
+  name.vb: ITaskRunner(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner
+    nameWithType: ITaskRunner
+    fullName: TaskRunner.ITaskRunner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1
+    name: ITaskRunner
+    nameWithType: ITaskRunner
+    fullName: TaskRunner.ITaskRunner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.TaskRunner`1.RunningCount*
+  commentId: Overload:TaskRunner.TaskRunner`1.RunningCount
+  name: RunningCount
+  nameWithType: TaskRunner<T>.RunningCount
+  fullName: TaskRunner.TaskRunner<T>.RunningCount
+  nameWithType.vb: TaskRunner(Of T).RunningCount
+  fullName.vb: TaskRunner.TaskRunner(Of T).RunningCount
+- uid: TaskRunner.ITaskRunner{{T}}.RunningCount
+  commentId: P:TaskRunner.ITaskRunner{`0}.RunningCount
+  parent: TaskRunner.ITaskRunner{{T}}
+  definition: TaskRunner.ITaskRunner`1.RunningCount
+  name: RunningCount
+  nameWithType: ITaskRunner<T>.RunningCount
+  fullName: TaskRunner.ITaskRunner<T>.RunningCount
+  nameWithType.vb: ITaskRunner(Of T).RunningCount
+  fullName.vb: TaskRunner.ITaskRunner(Of T).RunningCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TaskRunner.ITaskRunner`1.RunningCount
+  commentId: P:TaskRunner.ITaskRunner`1.RunningCount
+  name: RunningCount
+  nameWithType: ITaskRunner<T>.RunningCount
+  fullName: TaskRunner.ITaskRunner<T>.RunningCount
+  nameWithType.vb: ITaskRunner(Of T).RunningCount
+  fullName.vb: TaskRunner.ITaskRunner(Of T).RunningCount
+- uid: TaskRunner.TaskRunner`1.#ctor*
+  commentId: Overload:TaskRunner.TaskRunner`1.#ctor
+  name: TaskRunner
+  nameWithType: TaskRunner<T>.TaskRunner
+  fullName: TaskRunner.TaskRunner<T>.TaskRunner
+  nameWithType.vb: TaskRunner(Of T).TaskRunner
+  fullName.vb: TaskRunner.TaskRunner(Of T).TaskRunner
+- uid: TaskRunner.ISender{{T}}
+  commentId: T:TaskRunner.ISender{`0}
+  parent: TaskRunner
+  definition: TaskRunner.ISender`1
+  name: ISender<T>
+  nameWithType: ISender<T>
+  fullName: TaskRunner.ISender<T>
+  nameWithType.vb: ISender(Of T)
+  fullName.vb: TaskRunner.ISender(Of T)
+  name.vb: ISender(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.ISettings
+  commentId: T:TaskRunner.ISettings
+  parent: TaskRunner
+  name: ISettings
+  nameWithType: ISettings
+  fullName: TaskRunner.ISettings
+- uid: TaskRunner.ISender`1
+  commentId: T:TaskRunner.ISender`1
+  name: ISender<T>
+  nameWithType: ISender<T>
+  fullName: TaskRunner.ISender<T>
+  nameWithType.vb: ISender(Of T)
+  fullName.vb: TaskRunner.ISender(Of T)
+  name.vb: ISender(Of T)
+  spec.csharp:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TaskRunner.ISender`1
+    name: ISender
+    nameWithType: ISender
+    fullName: TaskRunner.ISender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.TaskRunner`1.Add*
+  commentId: Overload:TaskRunner.TaskRunner`1.Add
+  name: Add
+  nameWithType: TaskRunner<T>.Add
+  fullName: TaskRunner.TaskRunner<T>.Add
+  nameWithType.vb: TaskRunner(Of T).Add
+  fullName.vb: TaskRunner.TaskRunner(Of T).Add
+- uid: TaskRunner.ITaskRunner{{T}}.Add({T})
+  commentId: M:TaskRunner.ITaskRunner{`0}.Add(`0)
+  parent: TaskRunner.ITaskRunner{{T}}
+  definition: TaskRunner.ITaskRunner`1.Add(`0)
+  name: Add(T)
+  nameWithType: ITaskRunner<T>.Add(T)
+  fullName: TaskRunner.ITaskRunner<T>.Add(T)
+  nameWithType.vb: ITaskRunner(Of T).Add(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Add(T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1.Add(`0)
+    name: Add
+    nameWithType: ITaskRunner<T>.Add
+    fullName: TaskRunner.ITaskRunner<T>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1.Add(`0)
+    name: Add
+    nameWithType: ITaskRunner(Of T).Add
+    fullName: TaskRunner.ITaskRunner(Of T).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TaskRunner.ITaskRunner`1.Add(`0)
+  commentId: M:TaskRunner.ITaskRunner`1.Add(`0)
+  name: Add(T)
+  nameWithType: ITaskRunner<T>.Add(T)
+  fullName: TaskRunner.ITaskRunner<T>.Add(T)
+  nameWithType.vb: ITaskRunner(Of T).Add(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Add(T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1.Add(`0)
+    name: Add
+    nameWithType: ITaskRunner<T>.Add
+    fullName: TaskRunner.ITaskRunner<T>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1.Add(`0)
+    name: Add
+    nameWithType: ITaskRunner(Of T).Add
+    fullName: TaskRunner.ITaskRunner(Of T).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TaskRunner.TaskRunner`1.Remove*
+  commentId: Overload:TaskRunner.TaskRunner`1.Remove
+  name: Remove
+  nameWithType: TaskRunner<T>.Remove
+  fullName: TaskRunner.TaskRunner<T>.Remove
+  nameWithType.vb: TaskRunner(Of T).Remove
+  fullName.vb: TaskRunner.TaskRunner(Of T).Remove
+- uid: TaskRunner.ITaskRunner{{T}}.Remove({T})
+  commentId: M:TaskRunner.ITaskRunner{`0}.Remove(`0)
+  parent: TaskRunner.ITaskRunner{{T}}
+  definition: TaskRunner.ITaskRunner`1.Remove(`0)
+  name: Remove(T)
+  nameWithType: ITaskRunner<T>.Remove(T)
+  fullName: TaskRunner.ITaskRunner<T>.Remove(T)
+  nameWithType.vb: ITaskRunner(Of T).Remove(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Remove(T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1.Remove(`0)
+    name: Remove
+    nameWithType: ITaskRunner<T>.Remove
+    fullName: TaskRunner.ITaskRunner<T>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1.Remove(`0)
+    name: Remove
+    nameWithType: ITaskRunner(Of T).Remove
+    fullName: TaskRunner.ITaskRunner(Of T).Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TaskRunner.ITaskRunner`1.Remove(`0)
+  commentId: M:TaskRunner.ITaskRunner`1.Remove(`0)
+  name: Remove(T)
+  nameWithType: ITaskRunner<T>.Remove(T)
+  fullName: TaskRunner.ITaskRunner<T>.Remove(T)
+  nameWithType.vb: ITaskRunner(Of T).Remove(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Remove(T)
+  spec.csharp:
+  - uid: TaskRunner.ITaskRunner`1.Remove(`0)
+    name: Remove
+    nameWithType: ITaskRunner<T>.Remove
+    fullName: TaskRunner.ITaskRunner<T>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TaskRunner.ITaskRunner`1.Remove(`0)
+    name: Remove
+    nameWithType: ITaskRunner(Of T).Remove
+    fullName: TaskRunner.ITaskRunner(Of T).Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
